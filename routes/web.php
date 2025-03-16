@@ -35,9 +35,42 @@ Route::middleware('auth')->group(function () {
     Route::get('/preview', function () {
         return view('preview');
     })->name('preview');
+
+    Route::get('/style_list', function () {
+        return view('style_list');
+    })->name('style_list');
     
+    Route::get('/style_register', function () {
+        return view('style_register');
+    })->name('style_register');
+
+    Route::get('/style_edit', function () {
+        return view('style_edit');
+    })->name('style_edit');
+
+    Route::get('/item_list', function () {
+        return view('item_list');
+    })->name('item_list');
+    
+    Route::get('/item_register', function () {
+        return view('item_register');
+    })->name('item_register');
+
+    Route::get('/item_edit', function () {
+        return view('item_edit');
+    })->name('item_edit');
+
+    Route::get('/top_register', function () {
+        return view('top_register');
+    })->name('top_register');
+
+    Route::get('/common_register', function () {
+        return view('common_register');
+    })->name('common_register');
+
+
     //プレビュー
-    //デプロイ
+    //--デプロイ
     //スタイルの一覧表示
     // スタイルの登録ページ
     // スタイルの編集ページ
