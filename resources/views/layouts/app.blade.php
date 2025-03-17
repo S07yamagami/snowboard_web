@@ -8,8 +8,20 @@
         <title>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <!-- <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" /> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: "Noto Serif JP", serif;
+                font-optical-sizing: auto;
+                font-weight: <weight>;
+                font-style: normal;
+            }
+        </style>
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -18,19 +30,18 @@
         <div class="min-h-screen bg-gray-100">
             @include('layouts.navigation')
 
-            <!-- Page Heading -->
-            @isset($header)
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endisset
-
             <!-- Page Content -->
             <main>
                 {{ $slot }}
             </main>
+
         </div>
+        <footer class="fixed bottom-0 w-full bg-gray-800 text-white py-4 text-center" style="bottom:0">
+            <a href="/home" class="px-4 py-2 bg-blue-500 rounded">ホーム</a>
+            <a href="/about" class="px-4 py-2 bg-blue-500 rounded">ホームページについて</a>
+            <a href="/image" class="px-4 py-2 bg-blue-500 rounded">イメージ</a>
+
+
+        </footer>
     </body>
 </html>

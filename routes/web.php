@@ -3,7 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('home');
 })->name('home');
 
@@ -14,6 +14,26 @@ Route::get('/about', function () {
 Route::get('/image', function () {
     return view('image');
 })->name('image');
+
+Route::get('/user_top', function () {
+    return view('user_top');
+})->name('user_top');
+
+Route::get('/user_style', function () {
+    return view('user_style');
+})->name('user_style');
+
+Route::get('/user_item', function () {
+    return view('user_item');
+})->name('user_item');
+
+Route::get('/user_compare', function () {
+    return view('user_compare');
+})->name('user_compare');
+
+Route::get('/user_result', function () {
+    return view('user_result');
+})->name('user_result');
 
 //ユーザーidのトップ
 // ユーザーIDのスタイル
