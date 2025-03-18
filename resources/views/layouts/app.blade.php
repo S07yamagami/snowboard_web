@@ -36,12 +36,5 @@
             </main>
 
         </div>
-        <footer class="fixed bottom-0 w-full bg-gray-800 text-white py-4 text-center" style="bottom:0">
-            <a href="/home" class="px-4 py-2 bg-blue-500 rounded">ホーム</a>
-            <a href="/about" class="px-4 py-2 bg-blue-500 rounded">ホームページについて</a>
-            <a href="/image" class="px-4 py-2 bg-blue-500 rounded">イメージ</a>
-
-
-        </footer>
     </body>
 </html>

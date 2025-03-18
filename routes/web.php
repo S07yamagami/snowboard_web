@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TopController;
 use Illuminate\Support\Facades\Route;
+
 
 Route::get('/home', function () {
     return view('home');
@@ -80,9 +82,8 @@ Route::middleware('auth')->group(function () {
         return view('item_edit');
     })->name('item_edit');
 
-    Route::get('/top_register', function () {
-        return view('top_register');
-    })->name('top_register');
+    Route::get('/top_register', [TopController::class, 'create'])->name('top_register');
+    Route::post('/top_register', [TopController::class, 'update']);
 
     Route::get('/common_register', function () {
         return view('common_register');
