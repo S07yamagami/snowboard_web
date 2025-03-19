@@ -12,6 +12,13 @@
                     ここはイメージについてです
                </div>
             </div>
+            <div class="p-6 text-center">
+                    <a href="{{ route('login') }}">
+                        <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
+                            ログイン
+                        </button>
+                    </a>
+            </div>
         </div>
     </div>
 </x-guest-layout>
