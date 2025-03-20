@@ -59,14 +59,12 @@ Route::middleware('auth')->group(function () {
         return view('preview');
     })->name('preview');
 
-    Route::get('/style_list', function () {
-        return view('style_list');
-    })->name('style_list');
+    Route::get('/style', [StyleController::class, 'index'])->name('style_list');
     
-    Route::get('/style_register', [StyleController::class, 'create'])->name('style_register');
-    Route::post('/style_register', [StyleController::class, 'store']);
+    Route::get('/style/register', [StyleController::class, 'create'])->name('style_register');
+    Route::post('/style/register', [StyleController::class, 'store']);
 
-    Route::get('/style_edit', function () {
+    Route::get('/style/edit', function () {
         return view('style_edit');
     })->name('style_edit');
 

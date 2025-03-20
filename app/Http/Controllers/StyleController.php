@@ -12,7 +12,8 @@ class StyleController extends Controller
      */
     public function index()
     {
-        //
+        $styles = Style::where('user_id', auth()->user()->id)->get();
+        return view('style_list', compact('styles'));
     }
 
     /**
@@ -37,7 +38,7 @@ class StyleController extends Controller
             'img' => $base64,
             'user_id' => auth()->user()->id,
         ]);
-        return $request;
+        return redirect()->route('style_list');
     }
 
     /**
