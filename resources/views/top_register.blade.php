@@ -28,12 +28,12 @@
                         <!-- ディスクリプション -->
                         <div class="mb-4">
                             <label for="description" class="block text-sm font-medium text-gray-700">ディスクリプション</label>
-                            <textarea id="description" name="description" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">{{ $top->description }}</textarea>
+                            <textarea id="description" name="description" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">{{ $top->description ?? '' }}</textarea>
                         </div>
 
                         <div class="mb-4">
                             <label for="img" class="block text-sm font-medium text-gray-700">現在の画像</label>
-                            <img src="data:image/png;base64,{{ $top->img }}">
+                            <img src="data:image/png;base64,{{ $top->img ?? '' }}">
                         </div>
                         <!-- 画像アップロード -->
                         <div class="mb-4">
