@@ -48,6 +48,9 @@ Route::get('{user_id}/user_result', function () {
 // --ユーザーidの結果
 
 Route::middleware('auth')->prefix('admin')->group(function () {
+    Route::get('/', function(){
+        return redirect()->route('login');
+    });
 
     Route::get('/dashboard', function () {
         return view('dashboard');
