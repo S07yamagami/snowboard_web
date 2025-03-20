@@ -64,6 +64,7 @@ Route::middleware('auth')->group(function () {
     })->name('style_list');
     
     Route::get('/style_register', [StyleController::class, 'create'])->name('style_register');
+    Route::post('/style_register', [StyleController::class, 'store']);
 
     Route::get('/style_edit', function () {
         return view('style_edit');

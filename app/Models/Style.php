@@ -15,8 +15,9 @@ class Style extends Model
      * @var list<string>
      */
     protected $fillable = [
-        'powder',
-        'allMounten',
-        'park',
+        'id',
+        'name',
+        'img',
+        'user_id', 
     ];  
 }

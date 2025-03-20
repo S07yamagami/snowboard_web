@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Style;
 
 class StyleController extends Controller
 {
@@ -28,7 +29,15 @@ class StyleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $file = $request->file('image');
+        $base64 = $file ? base64_encode(file_get_contents($file)) : '';
+
+        Style::create([
+            'name' => $request->name,
+            'img' => $base64,
+            'user_id' => auth()->user()->id,
+        ]);
+        return $request;
     }
 
     /**

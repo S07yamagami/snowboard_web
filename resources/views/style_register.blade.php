@@ -47,7 +47,7 @@
 
                         <!-- 送信ボタン -->
                         <div class="flex justify-end">
-                            <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">登録</button>
+                            <button type="submit" class="px-4 py-2 bg-blue-500 rounded-md hover:bg-blue-600">登録</button>
                         </div>
                     </form>
                 </div>
