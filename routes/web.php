@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TopController;
+use App\Http\Controllers\StyleController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -62,9 +63,7 @@ Route::middleware('auth')->group(function () {
         return view('style_list');
     })->name('style_list');
     
-    Route::get('/style_register', function () {
-        return view('style_register');
-    })->name('style_register');
+    Route::get('/style_register', [StyleController::class, 'create'])->name('style_register');
 
     Route::get('/style_edit', function () {
         return view('style_edit');
