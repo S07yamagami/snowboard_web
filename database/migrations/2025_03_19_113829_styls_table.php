@@ -11,7 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        
+        Schema::create('style', function (Blueprint $table) {
+            $table->id();
+            $table->string('name')->comment('スタイル名');
+            $table->longText('img')->comment('画像');
+            $table->unsignedBigInteger('user_id');
+            $table->timestamps();
+        });
     }
 
     /**
@@ -19,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        //Schema::dropIfExists('style');
     }
 };
