@@ -54,7 +54,11 @@ class StyleController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        // $style = Style::where('id', $id)
+        //               ->where('user_id', auth()->id())
+        //               ->firstOrFail();
+
+        // return view('style_edit', compact('style'));
     }
 
     /**
@@ -70,6 +74,12 @@ class StyleController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $style = Style::where('id', $id)
+                      ->where('user_id', auth()->id())
+                      ->firstOrFail();
+
+        $style->delete();
+
+        return redirect()->route('style_list')->with('message', 'スタイルを削除しました');
     }
 }

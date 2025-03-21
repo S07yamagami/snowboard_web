@@ -68,6 +68,7 @@ Route::middleware('auth')->prefix('admin')->group(function () {
         Route::get('/', [StyleController::class, 'index'])->name('style_list');
         Route::get('/register', [StyleController::class, 'create'])->name('style_register');
         Route::post('/register', [StyleController::class, 'store']);
+        //Route::delete('/styles/{id}', [StyleController::class, 'destroy'])->name('style.destroy');
     });
     
 

@@ -11,12 +11,17 @@
                             <h1 class="text-3xl font-bold text-gray-900">HP作成イメージ</h1>
                             <p class="mt-4 text-gray-700">
                                 画像
+                                <br><br>
+                                スノーボード、ビンディング、ブーツが同時に選択できます！
+                                <br><br>
+                                画像
+                                <br><br>
+                                気になる商品が比較できます！
+                                <br><br>
+                                画像
+                                <br><br>
+                                選択したスノーボード、ビンディング、ブーツが一覧表示されます！
                             </p>
-                        </div>
-                        <div class="lg:w-1/2 flex flex-col gap-4 p-6">
-                            <img src="https://images.unsplash.com/photo-1611279607428-61f459a51dbb?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-                                alt="Snowboard Landscape" 
-                                class="rounded-lg shadow-lg w-full h-auto object-cover">
                         </div>
                     </div>
                 </div>
