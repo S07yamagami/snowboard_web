@@ -25,13 +25,13 @@
                     <x-nav-link :href="route('top_register')" :active="request()->routeIs('top_register')">
                         {{ __('トップページ登録') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('style_register')" :active="request()->routeIs('style_register')">
-                        {{ __('スタイル登録') }}
+                    <x-nav-link :href="route('style_list')" :active="request()->routeIs('style_list')">
+                        {{ __('スタイルリスト') }}
                     </x-nav-link>
                     <x-nav-link :href="route('item_register')" :active="request()->routeIs('item_register')">
-                        {{ __('商品登録') }}
+                        {{ __('商品一覧') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('item_register')" :active="request()->routeIs('item_register')"><!-- プレビュー作成 -->
+                    <x-nav-link :href="route('user_top', [auth()->id()])"><!-- プレビュー作成 -->
                         {{ __('プレビュー') }}
                     </x-nav-link>
                 </div>
