@@ -10,13 +10,13 @@
                         <div class="lg:w-1/2 text-center lg:text-left p-6">
                             <h1 class="text-3xl font-bold text-gray-900">4つのステップ</h1>
                             <p class="mt-4 text-gray-700">
-                                １ 御社の世界観を表現する画像を入れてください
+                                1, 御社の世界観を表現する画像と説明文を入れてください
                                 <br><br>
-                                ２ お客様に伝えたいメッセージを入れてください
+                                2, スタイル名と画像を入れてください
                                 <br><br>
-                                ３ ３つのスタイルの画像を入れてください
+                                3, 商品情報を入れてください
                                 <br><br>
-                                ４ 商品情報を入れてください
+                                4, プレビューで確認してください
                             </p>
                         </div>
                         <div class="lg:w-1/2 flex flex-col gap-4 p-6">

@@ -3,7 +3,7 @@
     <div class="container mx-auto p-6 bg-white shadow-lg rounded-lg">
         <!-- タイトルと新規作成ボタンを横並びに配置 -->
         <div class="flex justify-between items-center mb-4">
-            <h2 class="text-2xl font-semibold">データ一覧</h2>
+            <h2 class="text-2xl font-semibold">スタイルデータ　一覧</h2>
             <a href="{{ route('style_register') }}" class="bg-green-500 px-4 py-2 text-white rounded hover:bg-green-600">
                 新規作成
             </a>
