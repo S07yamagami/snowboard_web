@@ -13,7 +13,7 @@
         <p class="max-w-2xl text-lg md:text-xl mb-4">
             {{ $top->description }}
         </p>
-        <a href="">
+        <a href="user_style">
             <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
                 ホームページについて
             </button>

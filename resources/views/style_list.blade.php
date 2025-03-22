@@ -12,8 +12,8 @@
         <table class="w-full border-collapse border border-gray-300 mt-3">
             <thead>
                 <tr class="bg-gray-100">
-                    <th class="border border-gray-300 px-4 py-2 text-left">Name</th>
-                    <th class="border border-gray-300 px-4 py-2 text-left">アクション</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left">スタイル名</th>
+                    <th class="border border-gray-300 px-4 py-2 text-left">編集　削除</th>
                 </tr>
             </thead>
             <tbody>

@@ -11,25 +11,25 @@
                 {{-- Step 1 --}}
                 <div class="bg-white shadow-sm sm:rounded-lg p-6 w-full md:w-1/4">
                     <h3 class="text-lg font-bold text-gray-800 mb-2">ステップ1</h3>
-                    <p class="text-gray-600">ここにステップ1の説明を書きます。</p>
+                    <p class="text-gray-600">御社の世界観を表現する画像と説明文を入れてください</p>
                 </div>
 
                 {{-- Step 2 --}}
                 <div class="bg-white shadow-sm sm:rounded-lg p-6 w-full md:w-1/4">
                     <h3 class="text-lg font-bold text-gray-800 mb-2">ステップ2</h3>
-                    <p class="text-gray-600">ここにステップ2の説明を書きます。</p>
+                    <p class="text-gray-600">スタイル名と画像を入れてください</p>
                 </div>
 
                 {{-- Step 3 --}}
                 <div class="bg-white shadow-sm sm:rounded-lg p-6 w-full md:w-1/4">
                     <h3 class="text-lg font-bold text-gray-800 mb-2">ステップ3</h3>
-                    <p class="text-gray-600">ここにステップ3の説明を書きます。</p>
+                    <p class="text-gray-600">商品情報を入れてください</p>
                 </div>
 
                 {{-- Step 4 --}}
                 <div class="bg-white shadow-sm sm:rounded-lg p-6 w-full md:w-1/4">
                     <h3 class="text-lg font-bold text-gray-800 mb-2">ステップ4</h3>
-                    <p class="text-gray-600">ここにステップ4の説明を書きます。</p>
+                    <p class="text-gray-600">プレビューで確認してください</p>
                 </div>
             </div>
         </div>
