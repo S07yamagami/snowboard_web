@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TopController;
 use App\Http\Controllers\StyleController;
+use App\Http\Controllers\PreviewController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -20,10 +21,7 @@ Route::get('/image', function () {
 
 ############
 
-
-Route::get('{user_id}/user_top', function () {
-    return view('user_top');
-})->name('user_top');
+Route::get('{user_id}/user_top', [PreviewController::class, 'user_top'])->name('user_top');
 
 Route::get('{user_id}/user_style', function () {
     return view('user_style');
