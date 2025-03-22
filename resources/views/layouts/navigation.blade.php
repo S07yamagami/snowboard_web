@@ -10,6 +10,16 @@
                     </a>
                 </div> -->
 
+                <div class="flex items-center ms-auto">
+                    <x-nav-link 
+                        :href="route('home')" 
+                        :active="request()->routeIs('home')"
+                        class="text-lg font-bold border-2 <border-blue-9></border-blue-9>00 text-blue-600 px-4 py-2 rounded-md hover:bg-blue-100 transition"
+                            >
+                        {{ __('SnowFolio') }}
+                    </x-nav-link>
+                </div>
+
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('top_register')" :active="request()->routeIs('top_register')">
@@ -21,11 +31,8 @@
                     <x-nav-link :href="route('item_register')" :active="request()->routeIs('item_register')">
                         {{ __('商品登録') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('item_register')" :active="request()->routeIs('item_register')"><!-- 実行作成 -->
-                        {{ __('実行') }}
-                    </x-nav-link>
-                    <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
-                        {{ __('ホーム画面') }}
+                    <x-nav-link :href="route('item_register')" :active="request()->routeIs('item_register')"><!-- プレビュー作成 -->
+                        {{ __('プレビュー') }}
                     </x-nav-link>
                 </div>
             </div>
