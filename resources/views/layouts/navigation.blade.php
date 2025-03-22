@@ -21,6 +21,12 @@
                     <x-nav-link :href="route('item_register')" :active="request()->routeIs('item_register')">
                         {{ __('商品登録') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('item_register')" :active="request()->routeIs('item_register')"><!-- 実行作成 -->
+                        {{ __('実行') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('home')" :active="request()->routeIs('home')">
+                        {{ __('ホーム画面') }}
+                    </x-nav-link>
                 </div>
             </div>
 
