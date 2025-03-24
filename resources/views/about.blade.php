@@ -10,6 +10,7 @@
                         <div class="lg:w-1/2 text-center lg:text-left p-6">
                             <h1 class="text-3xl font-bold text-gray-900">4つのステップ</h1>
                             <p class="mt-4 text-gray-700">
+                                <br>
                                 1, 御社の世界観を表現する画像と説明文を入れてください
                                 <br><br>
                                 2, スタイル名と画像を入れてください
@@ -20,7 +21,7 @@
                             </p>
                         </div>
                         <div class="lg:w-1/2 flex flex-col gap-4 p-6">
-                            <img src="https://images.unsplash.com/photo-1551660209-9ceaab86a803?q=80&w=3165&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                            <img src="https://images.unsplash.com/photo-1600765282606-cddb34613aa2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                                 alt="Snowboard Landscape" 
                                 class="rounded-lg shadow-lg w-full h-auto object-cover">
                         </div>

@@ -17,8 +17,9 @@
     <body class="font-sans text-gray-900 antialiased">
         <!-- ヘッダー -->
         <header class="w-full bg-gray-800 text-white py-4 text-center">
-            <h1 class="text-xl font-semibold">SnowFolio</h1>
+            <h1 class="text-3xl font-semibold">SnowFolio</h1>
         </header>
+
         
         <div class="min-h-screen flex flex-col items-center bg-gray-100">
             @yield('contents')
