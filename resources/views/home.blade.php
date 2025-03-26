@@ -28,7 +28,7 @@
                 <div class="p-6 text-center">
                     <a href="{{ route('about') }}">
                         <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
-                            試してみる
+                            HP作成方法
                         </button>
                     </a>
                 </div>

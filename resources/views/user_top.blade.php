@@ -9,15 +9,15 @@
 
     <!-- 🔵 コンテンツ（前面） -->
     <div class="relative z-10 flex flex-col justify-center items-center h-full text-white text-center">
-        <h1 class="text-3xl md:text-5xl font-bold mb-4">雪上で最高の自分へ。</h1>
+        <h1 class="text-3xl md:text-5xl font-bold mb-4"></h1>
         <p class="max-w-2xl text-lg md:text-xl mb-4">
             {{ $top->description }}
         </p>
-        <a href="user_style">
+        <!-- <a href="user_style">
             <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
                 ホームページについて
             </button>
-        </a>
+        </a> -->
     </div>
 </div>
 @endsection

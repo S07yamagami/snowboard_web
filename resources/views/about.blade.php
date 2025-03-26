@@ -13,22 +13,22 @@
                         <div class="space-y-6">
                             <!-- ステップ1 -->
                             <div class="bg-gray-100 border-l-4 border-blue-500 rounded-lg p-4 shadow-md">
-                                <h2 class="font-bold text-lg text-gray-800">STEP 1</h2>
+                                <h2 class="font-bold text-lg text-gray-800">ステップ 1</h2>
                                 <p class="mt-2 text-gray-700">御社の世界観を表現する画像と説明文を入れてください</p>
                             </div>
                             <!-- ステップ2 -->
                             <div class="bg-gray-100 border-l-4 border-blue-500 rounded-lg p-4 shadow-md">
-                                <h2 class="font-bold text-lg text-gray-800">STEP 2</h2>
+                                <h2 class="font-bold text-lg text-gray-800">ステップ 2</h2>
                                 <p class="mt-2 text-gray-700">スタイル名と画像を入れてください</p>
                             </div>
                             <!-- ステップ3 -->
                             <div class="bg-gray-100 border-l-4 border-blue-500 rounded-lg p-4 shadow-md">
-                                <h2 class="font-bold text-lg text-gray-800">STEP 3</h2>
+                                <h2 class="font-bold text-lg text-gray-800">ステップ 3</h2>
                                 <p class="mt-2 text-gray-700">商品情報を入れてください</p>
                             </div>
                             <!-- ステップ4 -->
                             <div class="bg-gray-100 border-l-4 border-blue-500 rounded-lg p-4 shadow-md">
-                                <h2 class="font-bold text-lg text-gray-800">STEP 4</h2>
+                                <h2 class="font-bold text-lg text-gray-800">ステップ 4</h2>
                                 <p class="mt-2 text-gray-700">プレビューで確認してください</p>
                             </div>
                         </div>
