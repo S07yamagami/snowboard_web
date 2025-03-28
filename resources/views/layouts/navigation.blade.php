@@ -32,7 +32,7 @@
                         {{ __('商品一覧') }}
                     </x-nav-link>
                     <x-nav-link :href="route('user_top', [auth()->id()])"><!-- プレビュー作成 -->
-                        {{ __('プレビュー') }}
+                        {{ __('トップページのプレビュー') }}
                     </x-nav-link>
                 </div>
             </div>

@@ -32,18 +32,18 @@
                         </div>
 
                         <!-- 画像表示（編集時用） -->
-                        @if (!empty(optional($style)->image))
+                        <!-- @if (!empty(optional($style)->image))
                         <div class="mb-4">
                             <label for="current_img" class="block text-sm font-medium text-gray-700">現在の画像</label>
                             <img src="{{ asset('storage/' . $style->image) }}" class="mt-2 w-48 h-auto rounded">
                         </div>
-                        @endif
+                        @endif -->
 
                         <!-- 画像アップロード -->
-                        <div class="mb-4">
+                        <!-- <div class="mb-4">
                             <label for="image" class="block text-sm font-medium text-gray-700">画像アップロード</label>
                             <input type="file" id="image" name="image" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
-                        </div>
+                        </div> -->
 
                         <!-- 送信ボタン -->
                         <div class="flex justify-end">
