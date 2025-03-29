@@ -35,6 +35,13 @@
             </label>
         </div>
 
+        <!-- 「アカウントを作成する」ボタン -->
+            <div class="flex justify-center mt-6">
+                <button type="button" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300">
+                    アカウントを作成する
+                </button>
+            </div>
+
         <div class="flex items-center justify-end mt-4">
             @if (Route::has('password.request'))
                 <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
