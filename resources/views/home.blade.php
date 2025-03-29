@@ -10,12 +10,12 @@
                         <div class="lg:w-1/2 text-center lg:text-left p-6">
                             <h1 class="text-3xl font-bold text-gray-900">SnowFolio</h1>
                             <p class="mt-4 text-gray-700 leading-relaxed">
-                            スノーボード専用Webサイトを<br>
-                            簡単かつスピーディに構築できるサービスです。<br><br>
-                            デザイン性・操作性に優れたホームページを<br>
-                            専門知識なく簡単、手軽に。<br><br>
-                            御社の魅力やサービスを的確に伝え、<br>
-                            見やすくわかりやすいホームページを作成できます。
+                            スノーボード専用のWEBページを、<br>
+                            簡単かつスピーディに構築できるサービスをご提供します。<br><br>
+                            洗練されたデザインと直感的な操作性を備えたページを<br>
+                            簡単に作成可能です。<br><br>
+                            御社の魅力やサービス内容を的確に伝え、<br>
+                            ユーザーにとって見やすく、分かりやすい構成でご提案いたします。
                         </p>
                         </div>
                         <div class="lg:w-1/2 flex flex-col gap-4 p-6">
@@ -28,7 +28,7 @@
                 <div class="p-6 text-center">
                     <a href="{{ route('about') }}">
                         <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
-                            HP作成方法
+                            WEBページ作成方法
                         </button>
                     </a>
                 </div>

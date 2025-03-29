@@ -47,7 +47,7 @@
             <div class="p-6 text-center">
                 <a href="{{ route('image') }}">
                     <button class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-6 rounded-lg text-lg">
-                        HP完成イメージ
+                        WEBページ完成イメージ
                     </button>
                 </a>
             </div>
