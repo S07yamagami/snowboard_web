@@ -27,7 +27,7 @@
         <footer class="fixed bottom-0 w-full bg-gray-800 text-white py-4 text-center" style="bottom:0">
             <a href="/" class="px-4 py-2 bg-gray rounded">ホーム</a>
             <a href="/about" class="px-4 py-2 bg-gray rounded">WEBページ作成方法</a>
-            <a href="/image" class="px-4 py-2 bg-gray rounded">HP完成イメージ</a>
+            <a href="/image" class="px-4 py-2 bg-gray rounded">WEBページ完成イメージ</a>
             <a href="/admin" class="px-4 py-2 bg-gray rounded">ログイン</a>
 
         </footer>
