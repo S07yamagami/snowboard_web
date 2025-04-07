@@ -37,9 +37,11 @@
 
         <!-- 「アカウントを作成する」ボタン -->
             <div class="flex justify-center mt-6">
-                <button type="button" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300">
-                    アカウントを作成する
-                </button>
+                <a href="{{ route("register") }}">
+                    <button type="button" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300">
+                        アカウントを作成する
+                    </button>
+                </a>
             </div>
 
         <div class="flex items-center justify-end mt-4">
